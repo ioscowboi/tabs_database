@@ -1,0 +1,117 @@
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+ul{
+  display: flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  width: 500px;
+  flex-direction: row;
+  -o-flex-direction: row;
+  -moz-flex-direction: row;
+  -webkit-flex-direction: row;
+  z-index: -20;
+  margin: 100px 0px 0px 0px;
+}
+
+li{
+  size: 50px;
+  text-decoration: none;
+  padding: 3px 3px 3px 3px;
+  border-style: solid;
+  border-color: rgba(255, 200, 50, .5);
+  list-style-type: none;
+  background-color: rgba(255, 200, 50, .2);
+  border-radius: 5px 5px 0px 0px;
+}
+
+li:hover{
+  size: 60px;
+  text-decoration: none;
+  padding: 3px 3px 3px 3px;
+  border-style: solid;
+  border-color: rgba(255, 200, 50, .5);
+  list-style-type: none;
+  background-color: rgba(255, 200, 50, .5);
+  border-radius: 5px 5px 0px 0px;
+}
+
+a{
+  color: rgba(255, 180, 20, 1);
+    text-decoration: none;
+}
+
+.tab_content{
+  display: inline-block;
+  max-width: 1000px;
+  max-height: 1000px;
+  
+}
+
+img{
+  border-radius: 50px 50px 50px 50px;
+  max-width: 350px;
+  max-height:350px;
+  float: left;
+  margin: 20px 10px 10px 10px;
+}
+
+h1{
+  float:right;
+  font-family: 'Bevan', cursive;
+  color: rgba(255, 150, 50, 1);
+  margin: 25px 0px 2px 2px;
+  padding: 0px 51% 0px 0px;
+}
+
+p{
+  max-width: 500px;
+  color: rgba(78, 20, 0, 1);
+  float: left;
+}
+
+#about{
+  margin: 0px 0px 0px 0px;
+}
+p#about{
+  margin: 0px 2px 2px 10px;
+}
+#concerts{
+  display: none;
+}
+
+#discography{
+  display: none;
+}
+
+div{
+  width: 1000px;
+  height: 400px;
+  background-color: rgba(255, 200, 50, .2);
+  border-radius: 30px 50px 50px 50px;
+  z-index: 3;
+  transition: all 1s ease-in-out;
+	-moz-transition:all 1s ease-in-out; 
+  -webkit-transition:all 1s ease-in-out;
+	-o-transition:all 1s ease-in-out; 
+  -ms-transition:all 1s ease-in-out;
+}
+
+div:hover{
+  width: 1200px;
+  height: 500px;
+  background-color: rgba(255, 200, 50, .99);
+  border-radius: 30px 50px 50px 50px;
+  z-index: 4;
+  font-color: rgba(255, 130, 20, 1);
+  font-size: 18px;
+  transition: all 1s ease;
+	-moz-transition:all 1s ease; 
+  -webkit-transition:all 1s ease;
+	-o-transition:all 1s ease; 
+  -ms-transition:all 1s ease;
+}
+body{
+  margin: auto auto auto 25%;
+}
